@@ -9,10 +9,7 @@
 
 // ArrayList to store clock names.
 import java.util.ArrayList;
-// Scanner for user input.
 import java.util.Scanner;
-// Random number generator for Water Clock temeperatures.
-import java.util.Random;
 
 public class Main {
   // The amount of seconds in a week used for the programs inital simulation.
@@ -70,7 +67,7 @@ public class Main {
     clockList.add(new QuartzClock());
     clockList.add(new RadioClock());
     clockList.add(new TowerClock());
-    clockList.add(new test());
+    // clockList.add(new test());
 
     // Displays the time of each clock when reset which is currently at 00:00:00.
     System.out.println("Reported clock times after resetting:\n=====================================");
